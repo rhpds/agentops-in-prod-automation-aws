@@ -141,7 +141,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: job
-          image: minio/mc:latest
+          image: quay.io/rh-aiservices-bu/mc:latest
           imagePullPolicy: IfNotPresent
           env:
             - name: MC_CONFIG_DIR
